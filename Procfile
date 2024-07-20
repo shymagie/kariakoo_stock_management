@@ -1,0 +1,1 @@
+gunicorn --bind 0.0.0.0:8000 kariakoo_stock_management.wsgi:application
